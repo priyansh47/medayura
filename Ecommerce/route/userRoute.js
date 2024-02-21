@@ -1,0 +1,10 @@
+const express = require("express");
+const router = express.Router();
+const errorController = require("../controllers/errorController.js");
+const profileController = require("../controllers/profileController.js");
+const userController = require("../controllers/userController.js");
+router.route("/register").post(userController.registerUserCtrl);
+router.route("/login").post(userController.loginUserCtrl);
+router.route("/dummy").get(profileController.isLogged,profileController.isAdmin, userController.getUserCtrl);
+router.use(errorController.userRouteError);
+module.exports = router;

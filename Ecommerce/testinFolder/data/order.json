@@ -1,0 +1,16 @@
+{
+  "orderItems":[
+    {
+      "_id":"65a01740c0c6fb84a51c356e",
+      "name":"miami floral shirts",
+      "price":45.4,
+      "qty":12
+    },
+    {
+      "_id": "65a014f7192308943ba13ade",
+      "name": "Blue Jeans",
+      "price":234,
+      "qty": 3
+    }
+  ]
+}
