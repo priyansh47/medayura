@@ -1,0 +1,43 @@
+[
+  {
+    "_id": "659f464e76f51e660ea0dcc2",
+    "name": "Sample Product",
+    "description": "This is a sample product description.",
+    "brand": "Sample Brand",
+    "category": "Sample Category",
+    "sizes": ["M", "L"],
+    "colors": ["Red", "Blue"],
+    "user": "659b4d62b882410e248c635f",
+    "reviews": [],
+    "price": 29.99,
+    "totalQty": 100,
+    "totalSold": 0,
+    "createdAt": "2024-01-11T01:37:18.657Z",
+    "updatedAt": "2024-01-11T01:37:18.657Z",
+    "__v": 0,
+    "qtyLeft": 100,
+    "totalReviews": 0,
+    "averageRating": "NaN",
+    "id": "659f464e76f51e660ea0dcc2"
+  },
+  {
+    "_id": "659fc5148eabbf9d4fcc1002",
+    "name": "Stylish Fedora Hat",
+    "description": "A trendy and fashionable fedora hat for both men and women.",
+    "brand": "FashionZone",
+    "category": "Fashion Accessories",
+    "sizes": ["S", "M", "L"],
+    "colors": ["Black", "Brown", "Gray"],
+    "reviews": [],
+    "price": 45.78,
+    "totalQty": 100,
+    "totalSold": 0,
+    "createdAt": "2024-01-11T10:38:12.326Z",
+    "updatedAt": "2024-01-11T12:06:50.692Z",
+    "__v": 0,
+    "qtyLeft": 100,
+    "totalReviews": 0,
+    "averageRating": "NaN",
+    "id": "659fc5148eabbf9d4fcc1002"
+  }
+]

@@ -1,0 +1,67 @@
+StripeSignatureVerificationError: Webhook payload must be provided as a string or a Buffer (https://nodejs.org/api/buffer.html) instance representing the _raw_ request body.Payload was provided as a parsed JavaScript object instead.
+Signature verification is impossible without access to the original signed material.
+
+Learn more about webhook signing and explore webhook integration examples for various frameworks at https://github.com/stripe/stripe-node#webhook-signing
+
+    at validateComputedSignature (C:\Users\prakhar\Desktop\Ecommerce\node_modules\stripe\cjs\Webhooks.js:140:23)
+    at Object.verifyHeader (C:\Users\prakhar\Desktop\Ecommerce\node_modules\stripe\cjs\Webhooks.js:72:13)
+    at Object.constructEvent (C:\Users\prakhar\Desktop\Ecommerce\node_modules\stripe\cjs\Webhooks.js:13:32)
+    at C:\Users\prakhar\Desktop\Ecommerce\app.js:57:31
+    at Layer.handle [as handle_request] (C:\Users\prakhar\Desktop\Ecommerce\node_modules\express\lib\router\layer.js:95:5)    at next (C:\Users\prakhar\Desktop\Ecommerce\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\prakhar\Desktop\Ecommerce\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\prakhar\Desktop\Ecommerce\node_modules\express\lib\router\layer.js:95:5)    at C:\Users\prakhar\Desktop\Ecommerce\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\prakhar\Desktop\Ecommerce\node_modules\express\lib\router\index.js:346:12) {     
+  type: 'StripeSignatureVerificationError',
+  raw: {
+    message: 'Webhook payload must be provided as a string or a Buffer (https://nodejs.org/api/buffer.html) instance representing the _raw_ request body.Payload was provided as a parsed JavaScript object instead. \n' +
+      'Signature verification is impossible without access to the original signed material. \n' +
+      '\n' +
+      'Learn more about webhook signing and explore webhook integration examples for various frameworks at https://github.com/stripe/stripe-node#webhook-signing\n'
+  },
+  rawType: undefined,
+  code: undefined,
+  doc_url: undefined,
+  param: undefined,
+  detail: undefined,
+  headers: undefined,
+  requestId: undefined,
+  statusCode: undefined,
+  charge: undefined,
+  decline_code: undefined,
+  payment_intent: undefined,
+  payment_method: undefined,
+  payment_method_type: undefined,
+  setup_intent: undefined,
+  source: undefined,
+  header: 't=1705211391,v1=ae626c7799ffe3b97495f4e879692d468a3280245f2b31ca86e7320e2642a5f4,v0=6c37b68942970a136d2ebcd8a88393ba978da1514b67a2e5a155dba80bdeacec',
+  payload: {
+    id: 'evt_3OYMZuSHSyHZjTvN0UqTK1BK',
+    object: 'event',
+    api_version: '2023-10-16',
+    created: 1705211390,
+    data: { object: [Object] },
+    livemode: false,
+    pending_webhooks: 2,
+    request: {
+      id: 'req_767AhwrpZRgOWD',
+      idempotency_key: '2ce83408-27bd-4303-9780-3afacb25464a'
+    },
+    type: 'payment_intent.created'
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
